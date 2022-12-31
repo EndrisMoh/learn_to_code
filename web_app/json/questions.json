@@ -1,3 +1,4 @@
+var data = [
 {
 question: "The Plaka is the oldest quarter of which city?",
 answers: {
@@ -7,3 +8,54 @@ c: "Rome",
 d: "Vienna"},
 correctAnswer: "a"
 },
+{
+question: "In which city is the Africa Union (AU) headquarterd?",
+answers: {
+a: "Accra",
+b: "Nairobi",
+c: "Addis Ababa",
+d: "Johannesburg"
+    },
+correctAnswer: "c"
+},
+{
+question: "How many legs does a spider have?",
+answers: {
+a: "Six",
+b: "Eight",
+c: "Four",
+d: "Ten"
+    },
+correctAnswer: "b"
+},
+{
+question: "What is the color of an emerald?",
+answers: {
+a: "Red",
+b: "Pink",
+c: "Blue",
+d: "Green"
+    },
+correctAnswer: "d"
+},
+{
+question: "What is the color of a school bus?",
+answers: {
+a: "Red",
+b: "Yellow",
+c: "Blue",
+d: "Green"
+    },
+correctAnswer: "b"
+},
+{
+question: "Which country is home to the kangaroo?",
+answers: {
+a: "Australia",
+b: "Ethiopia",
+c: "New Zeland",
+d: "Kenya"
+    },
+correctAnswer: "a"
+}
+];
