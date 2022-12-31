@@ -74,6 +74,7 @@ function showPreviousSlide() {
     for (i = 0; i < data.length; i++) {
     myQuestions.push(data[i]);
     }
+document.getElementById('quizLength').innerHTML = data.length;
 buildQuiz();
 const previousButton = document.getElementById("previous");
 const nextButton = document.getElementById("next");
