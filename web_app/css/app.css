@@ -112,7 +112,7 @@ body {
         }
 
 /* ================= COUNTDOWN TIMER =================== */
-h2 {
+h4 {
     color: #333; 
     font-weight: 100; 
     font-size: 40px; 
@@ -148,4 +148,32 @@ h2 {
 .smalltext {
     padding-top: 3px; 
     font-size: 16px;
+}
+
+/* =========================== FORM STYLES ======================= */
+form {
+    color: #333;
+    font-weight: bold;
+}
+
+.formLabel {
+    font-size: 16px;
+    width: 10%;
+}
+
+.formArea, .formInput, .formSelect {
+    font-size: 25px;
+}
+
+.formArea {
+    width: 80%;
+}
+
+.formInput {
+    width: 50%;
+}
+
+.formSelect {
+    width: 25%;
+    text-align: center;
 }
